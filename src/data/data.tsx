@@ -18,13 +18,13 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
@@ -217,10 +217,19 @@ export const experience: TimelineItem[] = [
     title: 'iOS Software Engineer',
     content: (
       <p>
-        I am currently working as a Software Engineer at SameSystem. 
-        We are building a reatil, modern, mobile Application.
-        Here I'm responsible for building the core technologies and features to allow our clients to plan and manage their employess shifts,
-        and begin collecting revenue with less effort.
+        I am currently working as a Senior Software Engineer at SameSystem. 
+        At SameSystem we help our clients to plan and manage their employess shifts, and begin collecting revenue with less effort.
+        Here I'm responsible for:
+        <ul>
+            <li> increasing customers growth rate by implementing new Features including shift timeline, request
+vacations, mark availability and user calendar </li>
+            <li> collaborate with the product team while introducing and searching for a new feature </li>
+            <li> Support team members by organizing a practical workshop about topics such as high-level architecture using the Simon Brown C4 model, which led to effective design meeting </li>
+            <li> collaborate with the product team while introducing and searching for a new feature </li>
+            <li> Refactored our Swift legacy code, which led to higher app performance and high readability code </li>
+            <li> set the system's high-level architecture </li>
+            <li> Distributed beta and live versions of the system using Jenkins and Fastlane pipeline </li>
+        </ul> 
 
         <p> Frontend: Swift, UIKit, GraphQL , VIPER architecture. </p>
       </p>
@@ -232,14 +241,27 @@ export const experience: TimelineItem[] = [
     title: 'iOS Software Engineer',
     content: (
       <p>
-        We are building is a streaming App that offers a wide variety of TV shows, movies, anime.
-        You can watch as much as you want, whenever you want. all for one low monthly price.
-        There's always something new to discover.
+        At Aglorithmz we help you watch a wide variety of TV shows, movies and anime as much as you want.
+        Here I have had the chance to work on both iOS and TVOS Apps, using RxSwfit and RxCocoa to refactor our Swift legacy code as well as built new features 
 
-        <p> Frontend: RxSwift, UIKIt, MVVM architecture . </p>
+        <p> Frontend: RxSwift, RxCocoa, UIKIt, MVVM architecture . </p>
       </p>
     ),
   },
+  {
+    date: 'September2017-January2019',
+    location: 'NTG Clarity',
+    title: 'iOS Software Engineer',
+    content: (
+      <p>
+        NTG Clarity is a software house company, Here we help our clients to build their own app.
+        For most of my time at NTG, I have had the chance to work a wide variety of apps including waterOnline , NIS. 
+        Here I was responsible for built new features.
+
+        <p> Frontend: Swift, UIKIt, MVP architecture. </p>
+      </p>
+    ),
+  }
 ];
 
 /**
